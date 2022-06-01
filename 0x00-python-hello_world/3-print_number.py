@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 number = 98
-f'{number} Best School' 
+print(f"{number} Best School") 
