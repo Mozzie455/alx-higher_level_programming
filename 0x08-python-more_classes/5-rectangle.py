@@ -116,6 +116,7 @@ class Rectangle:
 
         return '{self.__class__.__name__}({self.width}, {self.height})'.\
             format(self=self)
+
     def __del__(self):
         """Prints string to STDOUT when rectangle object is deleted"""
 
