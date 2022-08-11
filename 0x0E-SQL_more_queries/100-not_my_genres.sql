@@ -12,5 +12,4 @@ LEFT JOIN (
 ) AS gen_dex
 ON tv_genres.id=gen_dex.id
 WHERE gen_dex.id IS NULL
-ORDER BY tv_genres.name;
-© 2020 GitHub, Inc.
+ORDER BY tv_genres.name;.
