@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Send a EMAIL"""
 
+
 def new_func():
 
     if __name__ == "__main__":
@@ -15,5 +16,6 @@ def new_func():
 
         with urllib.request.urlopen(req) as response:
             print(response.read().decode('utf-8'))
+
 
 new_func()

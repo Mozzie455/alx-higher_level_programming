@@ -15,4 +15,5 @@ def new_func(__name__):
         else:
             print(r.text)
 
+
 new_func(__name__)

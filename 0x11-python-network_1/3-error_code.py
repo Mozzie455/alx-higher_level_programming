@@ -16,4 +16,5 @@ def new_func(__name__):
         except urllib.error.HTTPError as e:
             print("Error code: {}".format(e.code))
 
+
 new_func(__name__)

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Use the package request"""
 
+
 def new_func():
     url = sys.argv[1]
     value = {"email": sys.argv[2]}

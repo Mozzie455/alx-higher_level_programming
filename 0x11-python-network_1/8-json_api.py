@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """Script that sends a POST request with data in the variable q"""
-
 from sys import argv
-
 import requests
+
 
 def new_func(__name__):
     if __name__ == '__main__':
@@ -18,5 +17,6 @@ def new_func(__name__):
                 print("[{}] {}".format(d.get("id"), d.get("name")))
         except ValueError:
             print("Not a valid JSON")
+
 
 new_func(__name__)
