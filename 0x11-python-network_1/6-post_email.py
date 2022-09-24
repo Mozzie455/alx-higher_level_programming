@@ -8,8 +8,9 @@ def new_func():
     r = requests.post(url, data=value)
     print(r.text)
 
+
 if __name__ == "__main__":
     import sys
     import requests
- 
+
     new_func()
